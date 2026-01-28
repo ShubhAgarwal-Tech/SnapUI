@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--primary-bg);
+  color: #fff;
+}
+
+:root {
+  --primary-bg: #09090b;
+  --secondary-bg: #141319;
+  --tertiary-bg: #17171c;
+}
+
+.sp-text {
+  background-image: conic-gradient(at top, #60a5fa, #3b82f6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.icon {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  background-color: var(--secondary-bg);
+  cursor: pointer;
+}
